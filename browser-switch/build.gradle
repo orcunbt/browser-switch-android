@@ -42,6 +42,7 @@ dependencies {
     implementation deps.annotation
     implementation deps.appcompat
     implementation deps.browser
+    implementation "androidx.browser:browser:1.8.0"
 
     testImplementation deps.junit
     testImplementation deps.mockitoCore
